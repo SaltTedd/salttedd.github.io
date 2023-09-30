@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 24 Sep 2023 21:05:41 at https://crispinfreeman.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://crispinfreeman.com/ -O1 "C:\Users\Ted\Downloads\crispin\crispin" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:05:42	Warning: 	Note: due to https://crispinfreeman.com remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+21:06:00	Error: 	"Method Not Allowed" (405) at link https://crispinfreeman.com/xmlrpc.php (from https://crispinfreeman.com/)
+21:06:21	Warning: 	Moved Permanently for https://crispinfreeman.com/?p=2
+21:06:21	Warning: 	File has moved from https://crispinfreeman.com/?p=2 to https://crispinfreeman.com/demos/
+21:06:24	Warning: 	Moved Permanently for https://crispinfreeman.com/?p=44
+21:06:24	Warning: 	File has moved from https://crispinfreeman.com/?p=44 to https://crispinfreeman.com/contact/
+21:06:24	Warning: 	Moved Permanently for https://crispinfreeman.com/?p=93
+21:06:24	Warning: 	File has moved from https://crispinfreeman.com/?p=93 to https://crispinfreeman.com/about/
+21:06:24	Warning: 	Moved Permanently for https://crispinfreeman.com/?p=18
+21:06:24	Warning: 	File has moved from https://crispinfreeman.com/?p=18 to https://crispinfreeman.com/voice-acting-mastery/
+21:06:24	Warning: 	Moved Permanently for https://crispinfreeman.com/?p=16
+21:06:24	Warning: 	File has moved from https://crispinfreeman.com/?p=16 to https://crispinfreeman.com/mythology-and-meaning/
+21:06:28	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/haiku-admin.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:06:28	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/haiku-player.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:06:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/screenshot-1.png (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:06:41	Warning: 	Retry after error -4 (No data (connection closed)) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/?C=N;O=A (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/?C=N;O=D)
+21:06:47	Warning: 	Retry after error -4 (No data (connection closed)) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/?C=M;O=D (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/?C=M;O=A)
+21:06:53	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/custom-player.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/)
+21:06:53	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/haiku-admin.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/)
+21:06:55	Warning: 	Retry after error 500 () at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/haiku-admin.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:06:55	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/haiku-player.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:07:12	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/custom-player.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/)
+21:07:12	Warning: 	Retry after error 500 (Internal Server Error) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/haiku-admin.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/)
+21:07:19	Error: 	"" (500) after 2 retries at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/haiku-admin.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:07:19	Error: 	"Internal Server Error" (500) after 2 retries at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/haiku-player.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/)
+21:07:19	Error: 	"Not Found" (404) at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/inc/color-picker/jquery.miniColors.js (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/inc/color-picker/)
+21:07:26	Error: 	"Internal Server Error" (500) after 2 retries at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/custom-player.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/)
+21:07:26	Error: 	"Internal Server Error" (500) after 2 retries at link https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/haiku-admin.php (from https://crispinfreeman.com/wp-content/plugins/haiku-minimalist-audio-player/admin/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 45 seconds : 254 links scanned, 231 files written (9261560 bytes overall) [9132949 bytes received at 86980 bytes/sec], 333739 bytes transferred using HTTP compression in 71 files, ratio 28%, 4.5 requests per connection
+(6 errors, 22 warnings, 0 messages)
