@@ -89,18 +89,20 @@ h2 {
    background-color: #007ACC; /* Skype Blue
 }
 
+/* Existing CSS styles above this line... */
+
 /* Style the "Projects" section */
 #projects {
    padding: 20px;
    text-align: center;
+   overflow-x: auto; /* Add horizontal scroll for small screens */
 }
 
 .projects-container {
    display: flex;
-   flex-wrap: nowrap; /* Prevent wrapping to new lines */
-   overflow-x: auto; /* Add horizontal scroll if needed */
+   flex-wrap: wrap; /* Allow projects to wrap to new lines */
    gap: 20px; /* Add spacing between projects */
-   justify-content: flex-start; /* Start from the left */
+   justify-content: center; /* Center-align projects */
 }
 
 /* Style individual projects */
@@ -110,7 +112,7 @@ h2 {
    border-radius: 10px;
    padding: 20px;
    text-align: center;
-   width: 300px; /* Adjust the width as needed */
+   width: calc(33.33% - 20px); /* Adjust the width as needed for 3 videos per row */
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
    transition: transform 0.2s ease-in-out;
 }
@@ -139,7 +141,13 @@ h2 {
    height: 100%;
 }
 
+/* Responsive layout for different screen sizes */
+@media (max-width: 768px) {
+   .projects-container {
+      justify-content: flex-start; /* Start from the left for narrow screens */
+   }
 
-
-
-   
+   .project {
+      width: 100%; /* Full width for narrow screens, 1 video per row */
+   }
+}
