@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, p {
+body, h1, h2, h3, p {
    margin: 0;
    padding: 0;
 }
@@ -86,18 +86,4 @@ h2 {
 
 /* Style the "Contact Me" section */
 #contact-me {
-   background-color: #007ACC; /* Skype Blue */
-   color: #fff;
-   padding: 20px;
-   text-align: center;
-}
-
-#contact-me a {
-   color: #fff;
-   text-decoration: none;
-   font-weight: bold;
-}
-
-#contact-me a:hover {
-   text-decoration: underline;
-}
+   background-color: #007ACC; /* Skype Blue
