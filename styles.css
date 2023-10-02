@@ -86,7 +86,8 @@ h2 {
 
 /* Style the "Contact Me" section */
 #contact-me {
-   background-color: #007ACC; /* Skype Blue
+   background-color: #007ACC; /* Skype Blue */
+   text-align: center;
 }
 
 /* Existing CSS styles above this line... */
