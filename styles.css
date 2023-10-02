@@ -87,3 +87,59 @@ h2 {
 /* Style the "Contact Me" section */
 #contact-me {
    background-color: #007ACC; /* Skype Blue
+}
+
+/* Style the "Projects" section */
+#projects {
+   padding: 20px;
+   text-align: center;
+}
+
+.projects-container {
+   display: flex;
+   flex-wrap: nowrap; /* Prevent wrapping to new lines */
+   overflow-x: auto; /* Add horizontal scroll if needed */
+   gap: 20px; /* Add spacing between projects */
+   justify-content: flex-start; /* Start from the left */
+}
+
+/* Style individual projects */
+.project {
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   padding: 20px;
+   text-align: center;
+   width: 300px; /* Adjust the width as needed */
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   transition: transform 0.2s ease-in-out;
+}
+
+.project:hover {
+   transform: scale(1.05); /* Add a hover effect to slightly scale up on hover */
+}
+
+.project h3 {
+   font-size: 1.5rem;
+   margin-top: 0;
+}
+
+/* Style the embedded YouTube videos */
+.video-container {
+   position: relative;
+   padding-bottom: 56.25%; /* 16:9 aspect ratio */
+   overflow: hidden;
+}
+
+.video-container iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+
+
+
+   
